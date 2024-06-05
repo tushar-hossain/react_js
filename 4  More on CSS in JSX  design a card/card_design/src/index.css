@@ -1,0 +1,32 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.todoApp {
+  width: 360px;
+  background-color: purple;
+  color: white;
+  text-align: center;
+  padding: 2px;
+  border-radius: 5px;
+}
+.card {
+  background-color: #ffbc04;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  display: inline-block;
+  box-shadow: 2px 4px 5px gray;
+}
+.cardTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.card-description {
+  text-align: center;
+}
+.card-footer {
+  text-align: center;
+}
