@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.card-header {
+  background-color: purple;
+  color: white;
+  text-align: center;
+  padding: 2px;
+  margin-bottom: 0.5rem;
+  border-radius: 0.3rem;
+}
+.card {
+  display: inline-block;
+  width: 300px;
+  background-color: #f3c703;
+  padding: 13px;
+  box-shadow: 1px 1px 8px;
+  margin: 10px 15px;
+  border-radius: 0.2rem;
+  text-align: center;
+}
+.card-title {
+  margin-bottom: 0.8rem;
+}
