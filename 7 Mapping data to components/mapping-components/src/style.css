@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.heading {
+  background-color: purple;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  width: 300px;
+  background-color: darksalmon;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  box-shadow: 0 2px 4px rgb(0.2, 0.2, 0.2);
+  margin:0.5rem 1rem;
+}
+.card:hover {
+  box-shadow: 0 4px 8px rgb(0.2, 0.2, 0.2);
+}
+.card-title {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.card-footer {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
