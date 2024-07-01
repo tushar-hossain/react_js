@@ -1,18 +1,18 @@
-export default function Product({ product }) {
-  const { image, title, price, rating, desc, btn } = product;
-
+function Product({ product }) {
+  const { image, title, price, rating, description, button } = product;
   return (
-    <div className="card">
-      <div>
-        <img className="image" src={image} />
-        <div className="body">
-          <h3 className="title">{title}</h3>
-          <p>{price}</p>
-          <p>{rating}</p>
-          <p className="description">{desc}</p>
-          <button>{btn}</button>
+    <div className="products">
+      <div className="product">
+        <img src={image} alt="images" />
+        <div className="card-body">
+          <h3>{title}</h3>
+          <p className="price">{price}</p>
+          <p className="rating">{rating}</p>
+          <p>{description}</p>
+          <p className="btn">{button}</p>
         </div>
       </div>
     </div>
   );
 }
+export default Product;
