@@ -1,0 +1,11 @@
+.faqs {
+  width: 600px;
+  margin: auto;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  box-shadow: 1px 1px 0;
+}
+.faqs h1 {
+  text-align: center;
+}
