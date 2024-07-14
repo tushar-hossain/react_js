@@ -1,0 +1,10 @@
+.form {
+  min-height: 100vh;
+  background-color: #666;
+}
+.newtodos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
