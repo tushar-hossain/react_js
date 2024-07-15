@@ -23,7 +23,7 @@ const customEffect = (url) => {
         setError(error.message);
         setIsLoading(false);
       });
-  }, []);
+  }, [data]);
 
   return { data, isLoading, error };
 };
