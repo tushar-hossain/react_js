@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color: #666;
+  min-height: 100vh;
+}
+.container h1 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.users {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0px, 1fr));
+  grid-gap: 1rem;
+}
+.user {
+  display: flex;
+  background-color: #333;
+  padding: 1rem;
+  color: white;
+  border-radius: 0.6rem;
+}
+.user:hover {
+  background-color: #111;
+}
+.user h3 {
+  color: yellow;
+}
+.user h3,
+p {
+  margin-bottom: 0.5rem;
+}
+.user a {
+  text-decoration: none;
+  color: white;
+}
+.user a:hover {
+  text-decoration: underline;
+}
