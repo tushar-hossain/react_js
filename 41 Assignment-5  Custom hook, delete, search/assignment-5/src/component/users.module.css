@@ -1,0 +1,24 @@
+.users {
+  padding: 2rem;
+  display: grid;
+}
+
+@media screen and (min-width: 400px) {
+  .users {
+    padding: 1rem;
+    grid-template-columns: auto auto;
+    gap: 0.2rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .users {
+    grid-template-columns: auto auto auto;
+    gap: 0.8rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .users {
+    grid-template-columns: auto auto auto auto;
+    gap: 0.8rem;
+  }
+}
