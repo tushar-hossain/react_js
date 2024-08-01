@@ -1,0 +1,19 @@
+nav {
+  background-color: #888;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  margin: 1rem;
+  color: white;
+}
+.nav-link:hover {
+  color: orange;
+}
+
+nav .active {
+  color: tomato;
+}
