@@ -1,0 +1,18 @@
+.navigation {
+  background-color: #777;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: white;
+}
+.nav:hover {
+  color: orange;
+}
+nav .active {
+  color: red;
+}
