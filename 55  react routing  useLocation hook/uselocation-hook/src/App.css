@@ -1,0 +1,44 @@
+nav {
+  background-color: antiquewhite;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NavLink {
+  text-decoration: none;
+  margin-left: 1rem;
+  color: orange;
+}
+nav .active {
+  color: black;
+}
+section {
+  padding: 0.5rem;
+  display: grid;
+  gap: 1rem;
+}
+article {
+  background-color: antiquewhite;
+  padding: 1rem;
+  border-radius: 0.6rem;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  color: pink;
+}
+
+@media screen and (min-width: 600px) {
+  section {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  section {
+    grid-template-columns: auto auto auto;
+  }
+}
